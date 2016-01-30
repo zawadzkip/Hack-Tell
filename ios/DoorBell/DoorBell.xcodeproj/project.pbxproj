@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8EA2C9041C5D121400AF31A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA2C9031C5D121400AF31A4 /* AppDelegate.swift */; };
+		8EA2C9061C5D121400AF31A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA2C9051C5D121400AF31A4 /* ViewController.swift */; };
+		8EA2C9091C5D121400AF31A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EA2C9071C5D121400AF31A4 /* Main.storyboard */; };
+		8EA2C90C1C5D121400AF31A4 /* DoorBell.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8EA2C90A1C5D121400AF31A4 /* DoorBell.xcdatamodeld */; };
+		8EA2C90E1C5D121400AF31A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EA2C90D1C5D121400AF31A4 /* Assets.xcassets */; };
+		8EA2C9111C5D121400AF31A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EA2C90F1C5D121400AF31A4 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8EA2C9001C5D121400AF31A4 /* DoorBell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoorBell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EA2C9031C5D121400AF31A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8EA2C9051C5D121400AF31A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8EA2C9081C5D121400AF31A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8EA2C90B1C5D121400AF31A4 /* DoorBell.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DoorBell.xcdatamodel; sourceTree = "<group>"; };
+		8EA2C90D1C5D121400AF31A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EA2C9101C5D121400AF31A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8EA2C9121C5D121400AF31A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EA2C8FD1C5D121400AF31A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EA2C8F71C5D121400AF31A4 = {
+			isa = PBXGroup;
+			children = (
+				8EA2C9021C5D121400AF31A4 /* DoorBell */,
+				8EA2C9011C5D121400AF31A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EA2C9011C5D121400AF31A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EA2C9001C5D121400AF31A4 /* DoorBell.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EA2C9021C5D121400AF31A4 /* DoorBell */ = {
+			isa = PBXGroup;
+			children = (
+				8EA2C9031C5D121400AF31A4 /* AppDelegate.swift */,
+				8EA2C9051C5D121400AF31A4 /* ViewController.swift */,
+				8EA2C9071C5D121400AF31A4 /* Main.storyboard */,
+				8EA2C90D1C5D121400AF31A4 /* Assets.xcassets */,
+				8EA2C90F1C5D121400AF31A4 /* LaunchScreen.storyboard */,
+				8EA2C9121C5D121400AF31A4 /* Info.plist */,
+				8EA2C90A1C5D121400AF31A4 /* DoorBell.xcdatamodeld */,
+			);
+			path = DoorBell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EA2C8FF1C5D121400AF31A4 /* DoorBell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EA2C9151C5D121400AF31A4 /* Build configuration list for PBXNativeTarget "DoorBell" */;
+			buildPhases = (
+				8EA2C8FC1C5D121400AF31A4 /* Sources */,
+				8EA2C8FD1C5D121400AF31A4 /* Frameworks */,
+				8EA2C8FE1C5D121400AF31A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoorBell;
+			productName = DoorBell;
+			productReference = 8EA2C9001C5D121400AF31A4 /* DoorBell.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EA2C8F81C5D121400AF31A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = PatZawadzki;
+				TargetAttributes = {
+					8EA2C8FF1C5D121400AF31A4 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 8EA2C8FB1C5D121400AF31A4 /* Build configuration list for PBXProject "DoorBell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EA2C8F71C5D121400AF31A4;
+			productRefGroup = 8EA2C9011C5D121400AF31A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EA2C8FF1C5D121400AF31A4 /* DoorBell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EA2C8FE1C5D121400AF31A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EA2C9111C5D121400AF31A4 /* LaunchScreen.storyboard in Resources */,
+				8EA2C90E1C5D121400AF31A4 /* Assets.xcassets in Resources */,
+				8EA2C9091C5D121400AF31A4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EA2C8FC1C5D121400AF31A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EA2C90C1C5D121400AF31A4 /* DoorBell.xcdatamodeld in Sources */,
+				8EA2C9061C5D121400AF31A4 /* ViewController.swift in Sources */,
+				8EA2C9041C5D121400AF31A4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8EA2C9071C5D121400AF31A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EA2C9081C5D121400AF31A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8EA2C90F1C5D121400AF31A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EA2C9101C5D121400AF31A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8EA2C9131C5D121400AF31A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8EA2C9141C5D121400AF31A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EA2C9161C5D121400AF31A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DoorBell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.patz.DoorBell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8EA2C9171C5D121400AF31A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DoorBell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.patz.DoorBell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EA2C8FB1C5D121400AF31A4 /* Build configuration list for PBXProject "DoorBell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EA2C9131C5D121400AF31A4 /* Debug */,
+				8EA2C9141C5D121400AF31A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EA2C9151C5D121400AF31A4 /* Build configuration list for PBXNativeTarget "DoorBell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EA2C9161C5D121400AF31A4 /* Debug */,
+				8EA2C9171C5D121400AF31A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8EA2C90A1C5D121400AF31A4 /* DoorBell.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8EA2C90B1C5D121400AF31A4 /* DoorBell.xcdatamodel */,
+			);
+			currentVersion = 8EA2C90B1C5D121400AF31A4 /* DoorBell.xcdatamodel */;
+			path = DoorBell.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8EA2C8F81C5D121400AF31A4 /* Project object */;
+}
