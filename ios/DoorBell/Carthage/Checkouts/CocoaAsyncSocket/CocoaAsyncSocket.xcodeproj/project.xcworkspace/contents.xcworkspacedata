@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:DoorBell/DoorBell.xcodeproj">
+      location = "self:CocoaAsyncSocket.xcodeproj">
    </FileRef>
 </Workspace>

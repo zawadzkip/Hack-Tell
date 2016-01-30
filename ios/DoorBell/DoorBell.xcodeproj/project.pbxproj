@@ -7,62 +7,81 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8EA2C9041C5D121400AF31A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA2C9031C5D121400AF31A4 /* AppDelegate.swift */; };
-		8EA2C9061C5D121400AF31A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA2C9051C5D121400AF31A4 /* ViewController.swift */; };
-		8EA2C9091C5D121400AF31A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EA2C9071C5D121400AF31A4 /* Main.storyboard */; };
-		8EA2C90C1C5D121400AF31A4 /* DoorBell.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8EA2C90A1C5D121400AF31A4 /* DoorBell.xcdatamodeld */; };
-		8EA2C90E1C5D121400AF31A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EA2C90D1C5D121400AF31A4 /* Assets.xcassets */; };
-		8EA2C9111C5D121400AF31A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EA2C90F1C5D121400AF31A4 /* LaunchScreen.storyboard */; };
+		8E1F82491C5D29F60097CFDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1F82481C5D29F60097CFDD /* AppDelegate.swift */; };
+		8E1F824B1C5D29F60097CFDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1F824A1C5D29F60097CFDD /* ViewController.swift */; };
+		8E1F824E1C5D29F60097CFDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E1F824C1C5D29F60097CFDD /* Main.storyboard */; };
+		8E1F82511C5D29F60097CFDD /* DoorBell.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8E1F824F1C5D29F60097CFDD /* DoorBell.xcdatamodeld */; };
+		8E1F82531C5D29F60097CFDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E1F82521C5D29F60097CFDD /* Assets.xcassets */; };
+		8E1F82561C5D29F60097CFDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E1F82541C5D29F60097CFDD /* LaunchScreen.storyboard */; };
+		8E1F82601C5D336E0097CFDD /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E1F825E1C5D2AE30097CFDD /* CocoaAsyncSocket.framework */; };
+		8E1F82611C5D336E0097CFDD /* CocoaAsyncSocket.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8E1F825E1C5D2AE30097CFDD /* CocoaAsyncSocket.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		8E1F82621C5D336E0097CFDD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8E1F82611C5D336E0097CFDD /* CocoaAsyncSocket.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		8EA2C9001C5D121400AF31A4 /* DoorBell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoorBell.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8EA2C9031C5D121400AF31A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8EA2C9051C5D121400AF31A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8EA2C9081C5D121400AF31A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8EA2C90B1C5D121400AF31A4 /* DoorBell.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DoorBell.xcdatamodel; sourceTree = "<group>"; };
-		8EA2C90D1C5D121400AF31A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8EA2C9101C5D121400AF31A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8EA2C9121C5D121400AF31A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E1F82451C5D29F60097CFDD /* DoorBell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoorBell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E1F82481C5D29F60097CFDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E1F824A1C5D29F60097CFDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8E1F824D1C5D29F60097CFDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E1F82501C5D29F60097CFDD /* DoorBell.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DoorBell.xcdatamodel; sourceTree = "<group>"; };
+		8E1F82521C5D29F60097CFDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E1F82551C5D29F60097CFDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E1F82571C5D29F60097CFDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E1F825E1C5D2AE30097CFDD /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaAsyncSocket.framework; path = Carthage/Build/iOS/CocoaAsyncSocket.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8EA2C8FD1C5D121400AF31A4 /* Frameworks */ = {
+		8E1F82421C5D29F60097CFDD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E1F82601C5D336E0097CFDD /* CocoaAsyncSocket.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8EA2C8F71C5D121400AF31A4 = {
+		8E1F823C1C5D29F60097CFDD = {
 			isa = PBXGroup;
 			children = (
-				8EA2C9021C5D121400AF31A4 /* DoorBell */,
-				8EA2C9011C5D121400AF31A4 /* Products */,
+				8E1F825E1C5D2AE30097CFDD /* CocoaAsyncSocket.framework */,
+				8E1F82471C5D29F60097CFDD /* DoorBell */,
+				8E1F82461C5D29F60097CFDD /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8EA2C9011C5D121400AF31A4 /* Products */ = {
+		8E1F82461C5D29F60097CFDD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8EA2C9001C5D121400AF31A4 /* DoorBell.app */,
+				8E1F82451C5D29F60097CFDD /* DoorBell.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8EA2C9021C5D121400AF31A4 /* DoorBell */ = {
+		8E1F82471C5D29F60097CFDD /* DoorBell */ = {
 			isa = PBXGroup;
 			children = (
-				8EA2C9031C5D121400AF31A4 /* AppDelegate.swift */,
-				8EA2C9051C5D121400AF31A4 /* ViewController.swift */,
-				8EA2C9071C5D121400AF31A4 /* Main.storyboard */,
-				8EA2C90D1C5D121400AF31A4 /* Assets.xcassets */,
-				8EA2C90F1C5D121400AF31A4 /* LaunchScreen.storyboard */,
-				8EA2C9121C5D121400AF31A4 /* Info.plist */,
-				8EA2C90A1C5D121400AF31A4 /* DoorBell.xcdatamodeld */,
+				8E1F82481C5D29F60097CFDD /* AppDelegate.swift */,
+				8E1F824A1C5D29F60097CFDD /* ViewController.swift */,
+				8E1F824C1C5D29F60097CFDD /* Main.storyboard */,
+				8E1F82521C5D29F60097CFDD /* Assets.xcassets */,
+				8E1F82541C5D29F60097CFDD /* LaunchScreen.storyboard */,
+				8E1F82571C5D29F60097CFDD /* Info.plist */,
+				8E1F824F1C5D29F60097CFDD /* DoorBell.xcdatamodeld */,
 			);
 			path = DoorBell;
 			sourceTree = "<group>";
@@ -70,13 +89,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8EA2C8FF1C5D121400AF31A4 /* DoorBell */ = {
+		8E1F82441C5D29F60097CFDD /* DoorBell */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8EA2C9151C5D121400AF31A4 /* Build configuration list for PBXNativeTarget "DoorBell" */;
+			buildConfigurationList = 8E1F825A1C5D29F60097CFDD /* Build configuration list for PBXNativeTarget "DoorBell" */;
 			buildPhases = (
-				8EA2C8FC1C5D121400AF31A4 /* Sources */,
-				8EA2C8FD1C5D121400AF31A4 /* Frameworks */,
-				8EA2C8FE1C5D121400AF31A4 /* Resources */,
+				8E1F82411C5D29F60097CFDD /* Sources */,
+				8E1F82421C5D29F60097CFDD /* Frameworks */,
+				8E1F82431C5D29F60097CFDD /* Resources */,
+				8E1F825D1C5D2A420097CFDD /* ShellScript */,
+				8E1F82621C5D336E0097CFDD /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -84,25 +105,25 @@
 			);
 			name = DoorBell;
 			productName = DoorBell;
-			productReference = 8EA2C9001C5D121400AF31A4 /* DoorBell.app */;
+			productReference = 8E1F82451C5D29F60097CFDD /* DoorBell.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8EA2C8F81C5D121400AF31A4 /* Project object */ = {
+		8E1F823D1C5D29F60097CFDD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = PatZawadzki;
 				TargetAttributes = {
-					8EA2C8FF1C5D121400AF31A4 = {
+					8E1F82441C5D29F60097CFDD = {
 						CreatedOnToolsVersion = 7.2;
 					};
 				};
 			};
-			buildConfigurationList = 8EA2C8FB1C5D121400AF31A4 /* Build configuration list for PBXProject "DoorBell" */;
+			buildConfigurationList = 8E1F82401C5D29F60097CFDD /* Build configuration list for PBXProject "DoorBell" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -110,55 +131,71 @@
 				en,
 				Base,
 			);
-			mainGroup = 8EA2C8F71C5D121400AF31A4;
-			productRefGroup = 8EA2C9011C5D121400AF31A4 /* Products */;
+			mainGroup = 8E1F823C1C5D29F60097CFDD;
+			productRefGroup = 8E1F82461C5D29F60097CFDD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8EA2C8FF1C5D121400AF31A4 /* DoorBell */,
+				8E1F82441C5D29F60097CFDD /* DoorBell */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8EA2C8FE1C5D121400AF31A4 /* Resources */ = {
+		8E1F82431C5D29F60097CFDD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EA2C9111C5D121400AF31A4 /* LaunchScreen.storyboard in Resources */,
-				8EA2C90E1C5D121400AF31A4 /* Assets.xcassets in Resources */,
-				8EA2C9091C5D121400AF31A4 /* Main.storyboard in Resources */,
+				8E1F82561C5D29F60097CFDD /* LaunchScreen.storyboard in Resources */,
+				8E1F82531C5D29F60097CFDD /* Assets.xcassets in Resources */,
+				8E1F824E1C5D29F60097CFDD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8E1F825D1C5D2A420097CFDD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = "/usr/local/bin/carthage copy-frameworks\n/usr/local/bin/carthage copy-frameworks\n/usr/local/bin/carthage copy-frameworks\n/usr/local/bin/carthage copy-frameworks\n/usr/local/bin/carthage copy-frameworks\n/usr/local/bin/carthage copy-frameworks\n/usr/local/bin/carthage copy-frameworks\n/usr/local/bin/carthage copy-frameworks\n/usr/local/bin/carthage copy-frameworks\n/usr/local/bin/carthage copy-frameworks";
+			shellScript = "$(SRCROOT)/Carthage/Build/iOS/CocoaAsyncSocket.framework\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		8EA2C8FC1C5D121400AF31A4 /* Sources */ = {
+		8E1F82411C5D29F60097CFDD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EA2C90C1C5D121400AF31A4 /* DoorBell.xcdatamodeld in Sources */,
-				8EA2C9061C5D121400AF31A4 /* ViewController.swift in Sources */,
-				8EA2C9041C5D121400AF31A4 /* AppDelegate.swift in Sources */,
+				8E1F82511C5D29F60097CFDD /* DoorBell.xcdatamodeld in Sources */,
+				8E1F824B1C5D29F60097CFDD /* ViewController.swift in Sources */,
+				8E1F82491C5D29F60097CFDD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8EA2C9071C5D121400AF31A4 /* Main.storyboard */ = {
+		8E1F824C1C5D29F60097CFDD /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8EA2C9081C5D121400AF31A4 /* Base */,
+				8E1F824D1C5D29F60097CFDD /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		8EA2C90F1C5D121400AF31A4 /* LaunchScreen.storyboard */ = {
+		8E1F82541C5D29F60097CFDD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8EA2C9101C5D121400AF31A4 /* Base */,
+				8E1F82551C5D29F60097CFDD /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +203,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		8EA2C9131C5D121400AF31A4 /* Debug */ = {
+		8E1F82581C5D29F60097CFDD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -210,7 +247,7 @@
 			};
 			name = Debug;
 		};
-		8EA2C9141C5D121400AF31A4 /* Release */ = {
+		8E1F82591C5D29F60097CFDD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -247,10 +284,14 @@
 			};
 			name = Release;
 		};
-		8EA2C9161C5D121400AF31A4 /* Debug */ = {
+		8E1F825B1C5D29F60097CFDD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = DoorBell/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.patz.DoorBell;
@@ -258,10 +299,14 @@
 			};
 			name = Debug;
 		};
-		8EA2C9171C5D121400AF31A4 /* Release */ = {
+		8E1F825C1C5D29F60097CFDD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = DoorBell/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.patz.DoorBell;
@@ -272,37 +317,37 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8EA2C8FB1C5D121400AF31A4 /* Build configuration list for PBXProject "DoorBell" */ = {
+		8E1F82401C5D29F60097CFDD /* Build configuration list for PBXProject "DoorBell" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8EA2C9131C5D121400AF31A4 /* Debug */,
-				8EA2C9141C5D121400AF31A4 /* Release */,
+				8E1F82581C5D29F60097CFDD /* Debug */,
+				8E1F82591C5D29F60097CFDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8EA2C9151C5D121400AF31A4 /* Build configuration list for PBXNativeTarget "DoorBell" */ = {
+		8E1F825A1C5D29F60097CFDD /* Build configuration list for PBXNativeTarget "DoorBell" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8EA2C9161C5D121400AF31A4 /* Debug */,
-				8EA2C9171C5D121400AF31A4 /* Release */,
+				8E1F825B1C5D29F60097CFDD /* Debug */,
+				8E1F825C1C5D29F60097CFDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		8EA2C90A1C5D121400AF31A4 /* DoorBell.xcdatamodeld */ = {
+		8E1F824F1C5D29F60097CFDD /* DoorBell.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				8EA2C90B1C5D121400AF31A4 /* DoorBell.xcdatamodel */,
+				8E1F82501C5D29F60097CFDD /* DoorBell.xcdatamodel */,
 			);
-			currentVersion = 8EA2C90B1C5D121400AF31A4 /* DoorBell.xcdatamodel */;
+			currentVersion = 8E1F82501C5D29F60097CFDD /* DoorBell.xcdatamodel */;
 			path = DoorBell.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = 8EA2C8F81C5D121400AF31A4 /* Project object */;
+	rootObject = 8E1F823D1C5D29F60097CFDD /* Project object */;
 }
